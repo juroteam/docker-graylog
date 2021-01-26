@@ -1,7 +1,7 @@
 FROM graylog/graylog:4.0.1-2
 
 ENV SLACK_PLUGIN_VERSION=1.0.5
-ENV INTEGRATIONS_PLUGIN_VERSION=3.3.7
+ENV INTEGRATIONS_PLUGIN_VERSION=4.0.1
 ENV PLUGIN_DIR=/usr/share/graylog/plugin
 
 RUN curl -fsL -o ${PLUGIN_DIR}/graylog-plugin-slack.jar \
