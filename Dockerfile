@@ -1,6 +1,6 @@
 FROM graylog/graylog:4.1.3
 
-ARG MAXMIND_LICENSE_KEY=${MAXMIND_LICENSE_KEY}
+ARG MAXMIND_LICENSE_KEY
 ARG INTEGRATIONS_PLUGIN_VERSION=4.1.3
 
 RUN curl -fsL -o geolite2-city.tar.gz https://download.maxmind.com/app/geoip_download\?edition_id=\GeoLite2-City\&license_key\=${MAXMIND_LICENSE_KEY}\&suffix\=tar.gz \
