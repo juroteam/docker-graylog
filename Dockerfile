@@ -1,4 +1,4 @@
-FROM graylog/graylog:4.2.5
+FROM graylog/graylog:4.2.5-jre11
 
 ARG MAXMIND_LICENSE_KEY
 ARG INTEGRATIONS_PLUGIN_VERSION=4.2.5
